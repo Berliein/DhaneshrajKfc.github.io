@@ -1,0 +1,228 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+    padding:0;
+    font-family: "Montserrat",sans-serif;
+}
+
+header {
+	display: flex;
+	justify-content: flex-end;
+	background-color:transparent;
+	padding: 30px 10%;
+	align-items:center;
+}
+li,a,button {
+	font-weight: 500;
+	font-size: 16px;
+	text-decoration: none;
+	color: white;
+}
+
+nav ul li {
+	display: inline-block;
+	padding: 0px 40px;
+}
+
+.logo {
+	cursor: pointer;
+	margin-right: auto;
+	padding-left: 2px;
+	padding-top: 2px;
+	padding-right: 2px;
+}
+
+nav ul li a {
+	transition: all 0.3s ease 0s;
+
+}
+nav ul li a:hover{
+	color: #000;
+	transition: all 0.3s ease 0s;
+}
+
+header > button{
+	padding: 8px 24px;
+	background-color: #000;
+	border-radius: 50px;
+	border: none;
+	outline: none;
+	transition: all 0.3s ease 0s;
+	cursor: pointer;
+	color: white;
+}
+header > button:hover{
+	background-color: #FF0000;
+}
+
+
+/*wrapper*/
+
+.wrapper {
+	background:url('../Img/aleks-dorohovich-HYpXP6Zk1dw-unsplash.jpg') no-repeat center center/cover;
+	 width: 100%;
+    display: block;
+    position: relative;
+    z-index: 1;
+
+}
+
+.wrapper:before {
+	position: absolute;
+	content: '';
+    background-image: linear-gradient(to right top, #000000, #000000, #000000, #000000, #000000);
+	width: 100%;
+	height: 100%;
+	opacity:0.6;
+	z-index: -1;
+}
+
+/*Content*/
+.content {
+	display: flex;
+	padding: 100px 50px;
+	justify-content: space-between;
+	color: #FFF;
+}
+
+.super h1{
+	font-size: 40px;
+}
+
+.super p {
+	margin: 30px 0;
+	font-weight: 400;
+	line-height: 2;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.btn-outline {
+    border-radius: 30px;
+    color: #ffffff;
+    border-color: #ffffff;
+    padding: 12px 30px;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn-outline:hover {
+    background: #ffffff;
+    color: #FF0000;
+}
+
+i.fa {
+    margin-right: 10px;
+}
+
+.social-links {
+    padding: 20px;
+    margin-top:50px;
+}
+
+.social-links ul {
+    list-style: none;
+    display: flex;  
+    justify-content: space-between;
+}
+
+.btn-social {
+	padding: 9px 20px;
+	border: none;
+	border-radius: 20px;
+}
+
+.bg-facebook {
+	color: #0F1BE1;
+
+}
+
+.bg-youtube {
+	color: #EF0A0A;
+}
+
+.bg-instagram {
+	color: #EF0A5D;
+}
+
+footer{
+      background: #2F332C;
+      color: #FFF;
+      padding-top: 15px;
+      height: auto;     
+}
+
+.footer-content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3{
+	font-size: 25px;
+	font-weight: 300;
+	text-transform: capitalize;
+	
+}
+
+.footer-content p {
+	font-size: 15px;
+	font-weight: 400;
+}
+
+.socials {
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content:center;
+	margin: 20px;
+}
+
+.socials li {
+	margin: 0 10px;
+}
+.socials a {
+	text-decoration: none;
+	color: white;
+}
+
+.socials a i {
+	font-size: 20px;
+	transition: color .4s ease;
+}
+
+.socials a:hover i {
+	color: #00FFFFFF;
+}
+.footer-bottom {
+	background-color: black;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer-bottom p {
+	font-size: 14px;
+	word-spacing: 1px;
+	text-transform: capitalize;
+	opacity: 0.4;
+}

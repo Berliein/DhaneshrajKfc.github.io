@@ -160,14 +160,15 @@ i.fa {
 }
 
 .bg-instagram {
-	color: #EF0A5D;
+    color: #ef3ba6;
 }
-
-footer{
-      background: #2F332C;
-      color: #FFF;
-      padding-top: 15px;
-      height: auto;     
+footer {
+    background: linear-gradient(
+360deg
+, black,black, transparent);
+    color: #FFF;
+    padding-top: 15px;
+    height: auto;
 }
 
 .footer-content {
@@ -225,4 +226,6 @@ footer{
 	word-spacing: 1px;
 	text-transform: capitalize;
 	opacity: 0.4;
+}img {
+    object-fit: contain;
 }
